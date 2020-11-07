@@ -1,0 +1,84 @@
+/* 鼠标样式 */
+* {
+  cursor: url(/images/default.cur),auto;
+}
+:link {
+  cursor: url(/images/pointer.cur),auto
+}
+
+/*动态背景图片*/
+body {
+  background:url(https://source.unsplash.com/random/1600x900);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:50% 50%;
+}
+
+/*网站LOGO炫酷效果*/
+.site-title{
+  background-image: linear-gradient(
+    to right,
+    orangered,
+    orange,
+    gold,
+    lightgreen,
+    cyan,
+    dodgerblue,
+    mediumpurple,
+    hotpink,
+    orangered
+  );
+  background-size: 110vw;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0.1); /* transparent IE 不支持 */
+  animation: sliding 30s linear infinite;
+}
+@keyframes sliding{
+  to{
+    background-position:  -2000vw;
+  }
+}
+
+.site-meta,
+.site-subtitle {
+  color: rgba(0,0,0,0.1); /* transparent IE 不支持 */
+  animation: hue 1.5s linear infinite;
+  background-image: linear-gradient(to right bottom, rgb(255,0,0), rgb(255,128,0), rgb(255,255,0), rgb(0,255,0), rgb(0,255,128), rgb(0,255,255), rgb(0,128,255), rgb(0,0,255), rgb(128,0,255), rgb(255,0,255), rgb(255,0,128));
+  -webkit-background-clip: text;
+}
+@keyframes hue {
+  from {
+      filter: hue-rotate(0);
+  }
+  to {
+      filter: hue-rotate(-360deg);
+  }
+}
+
+.site-meta{
+  background: #ecf9f8;
+  +mobile(){
+    padding: 10px 0;
+    background-image: linear-gradient(90deg,#f79533 0,#f37055 15%,#ef4e7b 30%,#a166ab 44%,#5073b8 58%,#1098ad 72%,#07b39b 86%,#6dba82 100%)!important;
+  }
+}
+
+
+# 首字下沉
+.post-body>p:first-child::first-letter{
+  float: left;
+/* height: 32px;*/
+  margin-top: 14px;
+  margin-right: 6px;
+  color: #555;
+  font-size: 42px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  +mobile(){
+    margin-top: 10px;
+    margin-right: 4px;
+    font-size: 26px;
+    line-height: 20px;
+  }
+}
