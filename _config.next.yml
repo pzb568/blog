@@ -23,7 +23,7 @@ custom_file_path:
   header: source/_data/header.njk
   sidebar: source/_data/sidebar.njk
   postMeta: source/_data/post-meta.njk
-  postBodyEnd: source/_data/post-body-end.njk
+  #postBodyEnd: source/_data/post-body-end.njk
   #footer: source/_data/footer.njk
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
@@ -67,7 +67,7 @@ custom_logo: #/uploads/custom-logo.jpg
 creative_commons:
   license: by-nc-sa
   sidebar: false
-  post: false
+  post: true
   language:
 
 
@@ -92,6 +92,7 @@ menu:
   #photos: /photos/ || fa fa-image 
   photos: /photos || fa fa-camera-retro 
   top: /top/ || fa fa-signal
+  links: /links/ || fa fas fa-heart
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -207,7 +208,7 @@ chat:
 # ---------------------------------------------------------------
 
 # Show multilingual switcher in footer.
-language_switcher: true
+language_switcher: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
@@ -517,16 +518,16 @@ math:
   every_page: false
 
   mathjax:
-    enable: false
+    enable: true
 
   katex:
-    enable: false
+    enable: true
     # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
     copy_tex: false
 
 # Easily enable fast Ajax navigation on your website.
 # For more information: https://github.com/next-theme/pjax
-pjax: false
+pjax: true
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox
