@@ -5,7 +5,7 @@ tags:
     - next
     - 主题更新
 categories:
-    - 网络应用
+    - 软件应用
 comments: true
 abbrlink: aaf37d53
 date: 2019-07-04 19:56:20

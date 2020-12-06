@@ -3,7 +3,7 @@ title: archlinux启动ssh服务
 tags:
   - ssh
 categories:
-  - 软件应用
+  - 软件工具
 comments: true
 mathjax: false
 abbrlink: e1ab7e88

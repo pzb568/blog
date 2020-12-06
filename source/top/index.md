@@ -1,10 +1,10 @@
 ---
-title: 热榜
-date: 2019-10-13 13:49:58
+title: 文章热度排行
+date: 2019-08-14 10:29:51
 ---
-<div id="top"></div>
+<div id="hot"></div>
 <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
-<script>AV.initialize("0ww4YXJsr4oKntHqICeYrEKu-gzGzoHsz", "L9xcIdm50WT6yhvW1XPTM58e");</script>
+<script>AV.initialize("P9NDhqkbLTfgp9eRULAGL2gX-MdYXbMMI", "12kxBeqQBTPzrzdE7outVCA5");</script>
 <script type="text/javascript">
   var time=0
   var title=""
@@ -19,9 +19,8 @@ date: 2019-10-13 13:49:58
       time=result.time;
       title=result.title;
       url=result.url;
-      // var content="<a href='"+"https://pzb568.github.io"+url+"'>"+title+"</a>"+"<br>"+"<font color='#fff'>"+"阅读次数："+time+"</font>"+"<br><br>";
-      var content="<p>"+"<font color='#1C1C1C'>"+"【文章热度:"+time+"℃】"+"</font>"+"<a href='"+"https://pzb568.github.io"+url+"'>"+title+"</a>"+"</p>";
-      document.getElementById("top").innerHTML+=content
+      var content="<p>"+"<font color='#1C1C1C'>"+"【文章热度:"+time+"℃】"+"</font>"+"<a href='"+"YOUR_URL"+url+"'>"+title+"</a>"+"</p>";
+      document.getElementById("hot").innerHTML+=content
     }
   }, function (error) {
     console.log("error");

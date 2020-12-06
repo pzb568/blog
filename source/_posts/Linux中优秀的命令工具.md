@@ -8,7 +8,7 @@ tags:
     - axel
     - mosh
 categories:
-    - 软件应用
+    - 软件工具
 comments: true
 abbrlink: ee59f1b1
 date: 2019-06-15 23:47:44

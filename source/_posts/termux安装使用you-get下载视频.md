@@ -6,7 +6,7 @@ tags:
     - 下载
     - termux
 categories:
-    - 应用软件
+    - 软件应用
 comments: true
 abbrlink: d8fa7a69
 date: 2018-11-10 12:49:14

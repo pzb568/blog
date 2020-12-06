@@ -7,7 +7,7 @@ tags:
     - grub
     - 双系统修复
 categories:
-    - 操作系统
+    - 系统工具
 comments: true
 abbrlink: 102fd15b
 date: 2019-02-26 21:55:54

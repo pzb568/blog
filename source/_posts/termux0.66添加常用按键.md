@@ -4,7 +4,7 @@ tags:
     - termux
     - 常用键
 categories:
-    - 手机软件
+    - 软件工具
 comments: true
 abbrlink: 25aac357
 date: 2019-02-26 20:26:22

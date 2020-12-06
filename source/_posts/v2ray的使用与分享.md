@@ -9,7 +9,7 @@ tags:
     - Pharos 
     - v2rayN
 categories:
-    - 科学上网
+    - 网络应用
 comments: true
 top: 1
 abbrlink: 3be63484

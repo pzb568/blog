@@ -7,8 +7,7 @@ tags:
     - 安卓
     - WireGuard
 categories:
-    - 科学上网
-    - 安卓软件
+    - 软件工具
 comments: true
 abbrlink: 1bd1d3ff
 date: 2018-11-17 15:06:36

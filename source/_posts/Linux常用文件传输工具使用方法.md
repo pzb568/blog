@@ -5,7 +5,7 @@ tags:
     - rsync
     - syncthing
 categories:
-    - 软件应用
+    - 软件工具
 comments: true
 abbrlink: b3144d70
 date: 2019-06-16 12:19:39

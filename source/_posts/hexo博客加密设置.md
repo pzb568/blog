@@ -3,7 +3,7 @@ title: hexo博客加密设置
 tags:
     - 加密模板
 categories:
-    - hexo加密
+    - 软件应用
 comments: true
 mathjax: false
 encrypt: true

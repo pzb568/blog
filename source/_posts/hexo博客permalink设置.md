@@ -4,7 +4,7 @@ tags:
     - hexo
     - permalink
 categories:
-    - 网络应用
+    - 软件应用
 comments: true
 mathjax: false
 abbrlink: a7ce4954

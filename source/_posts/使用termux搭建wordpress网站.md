@@ -10,7 +10,7 @@ tags:
     - nginx
     - caddy
 categories:
-    - 网络应用
+    - 软件应用
 comments: true
 abbrlink: 371af598
 date: 2018-12-08 17:03:19

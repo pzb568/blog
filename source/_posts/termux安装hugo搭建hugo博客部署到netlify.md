@@ -4,7 +4,7 @@ draft: false
 keywords: []
 description: ''
 categories:
-    - 网络应用
+    - 软件工具
 tags:
     - termux
     - hugo

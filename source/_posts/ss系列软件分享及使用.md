@@ -3,11 +3,11 @@ title: ss系列软件分享及使用
 tags:
     - 翻墙
     - 谷歌
-    - SSR
+    - v2ray
     - SSR免费节点
     - 节点分享
 categories:
-    - 科学上网
+    - 网络应用
 comments: true
 abbrlink: 2d957091
 date: 2018-11-08 23:42:34

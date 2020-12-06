@@ -1,7 +1,7 @@
 ---
 title: MYSQL数据库使用记录
 categories:
-    - 软件应用
+    - 软件工具
 tags:
     - MYSQL
     - 数据库
